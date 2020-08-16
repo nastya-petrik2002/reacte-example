@@ -1,0 +1,17 @@
+.userItemContainer {
+  min-height: 100px;
+  min-width: 300px;
+  max-width: 90vh;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.userAvatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: wheat;
+}

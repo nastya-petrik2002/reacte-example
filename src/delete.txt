@@ -1,0 +1,20 @@
+Из UserList.js 
+render() {
+  return (
+{/*isFetching ? <Spinner /> : ''*/}
+<a href="#" onClick={this.handleClick}>
+  Нажми на меня
+</a>
+<div onClick={this.logClick}>Нажми на меня</div>
+<div
+  onClick={() => {
+    this.fetchUsers();
+  }}
+  >
+  Text
+</div>
+<div onClick={this.showClick}>
+  {this.state.showWarning ? 'Спрятать' : 'Показать'}
+</div>
+  );
+}

@@ -1,0 +1,13 @@
+.errorContainer {
+  background-color: red;
+  color: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.closeError {
+  cursor: absolute;
+  position: absolute;
+  top: 7px;
+  right: -7px;
+}
